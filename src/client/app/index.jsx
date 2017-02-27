@@ -7,9 +7,6 @@ import {Router, Route, browserHistory, IndexRoute} from 'react-router';
 import Home from './layouts/home.component.jsx';
 import About from './layouts/about.component.jsx';
 
-window.rootLocale = "/react/";
-window.rootLocale = "/";
-
 render(
     <Router history={browserHistory}>
         <Route path={rootLocale}>
