@@ -7,6 +7,10 @@ import {Router, Route, browserHistory, IndexRoute} from 'react-router';
 import Home from './layouts/home.component.jsx';
 import About from './layouts/about.component.jsx';
 
+import style from './sass/main.scss';
+
+
+
 render(
     <Router history={browserHistory}>
         <Route path={rootLocale}>
@@ -16,3 +20,4 @@ render(
     </Router>,
     document.getElementById('container')
 );
+
